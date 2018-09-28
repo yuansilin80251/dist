@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <script src="../js/jquery.js"></script>
+    <link href="../css/swiper.css" rel="stylesheet">
+    <script src="../js/swiper.js"></script>
+    <script src="../js/jquery-cookie.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+<div class="wrapFlyW" id="fly">
+    <div class="wrapFly">
+        <span class="proName"></span>
+        <ul>
+            <li>概述</li>
+            <li>参数</li>
+            <li>F码通道</li>
+            <li>用户评价</li>
+        </ul>
+    </div>
+</div>
+<div class="nav">
+    <!--加载header-->
+</div>
+<div class="warp">
+    <div class="navList">
+        <!--加载navList-->
+    </div>
+    <div class="proListw">
+        <ul class="proList">
+            <!--<li><div class="li-header"><span>新品</span></div><div class="li-img" style="background-image: url('')"></div><p class="name"></p><p class="price"></p></li>-->
+
+        </ul>
+    </div>
+    <div class="wrapFlyW">
+        <div class="wrapFly">
+            <span class="proName"></span>
+            <ul>
+                <li>概述</li>
+                <li>参数</li>
+                <li>F码通道</li>
+                <li>用户评价</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="swiper-container" id="detailSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="" alt=""></div>
+                <div class="swiper-slide"><img src="" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <aside>
+            <span class="ms">限时秒杀</span><span class="proName">${arr[n]['name']}</span>
+            <p> <span>「6GB+256GB，限时秒杀，立省200元，下单结算显示秒杀价」</span>「6GB+64GB/6GB+256GB 加赠10000mAh小米移动电源」全球首款双频GPS / 骁龙845处理器 / 红外人脸解锁 / AI变焦双摄 / 三星 AMOLED 屏</p>
+            <span class="price"></span><span class="oldprice"></span>
+            <div class="zengP">
+                <span class="zp">赠品</span>
+                <span class="zp">赠米粉卡，内含100元话费</span><br>
+                <span class="zp">赠品</span>
+                <span class="zp">6GB+64GB，赠10000mAh小米移动电源</span>
+            </div>
+            <img src="../imgs/weizhi.jpg" alt="">
+            <h4>选择版本</h4>
+            <span class="banBen select">默认版本</span>
+            <h4>选择颜色</h4>
+            <span class="color select">黑色</span>
+            <span class="color">蓝色</span>
+            <span class="color">金色</span>
+            <span class="color">白色</span>
+            <div class="services">
+                <span class="proName">aa(默认版本)</span>
+                <span class="totalpaice"></span>
+            </div>
+            <button id="buy">加入购物车</button>
+            <button class="lover iconfont">&#xe8c7;喜欢</button>
+            <p class="baoZhang iconfont">&#xe67d;7天无理由退      &#xe61f;15天质量问题换货     &#xe624;365天保修</p>
+        </aside>
+    </div>
+</div>
+<div class="spacial">
+    <h2>特别说明</h2>
+    <img src="../imgs/shuoMing.jpg" alt="">
+    <h2>官方微信</h2>
+    <img src="../imgs/miwx.jpg" alt="">
+</div>
+
+<footer class="footer">
+    <!--加载footer-->
+</footer>
+<script src="../js/detail.js"></script>
+</body>
+</html>

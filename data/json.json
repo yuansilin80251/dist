@@ -1,0 +1,133 @@
+{
+  "phone": [
+      {
+        "id": 1,
+        "name": "小米8&nbsp;&nbsp;青春版",
+        "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/qingchun-320.png",
+        "src":"../imgs/mi8.jpg",
+        "price": 1599,
+        "hot":1
+      },
+      {
+      "id": 2,
+      "name": "小米8 屏幕指纹版",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/pingmu-320.png",
+      "src":"../imgs/mi8se.jpg",
+      "price": 3199,
+      "hot":1
+    },
+    {
+      "id": 3,
+      "name": "小米8",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/pc-320-220-mi8.png",
+      "src":"../imgs/mi8.jpg",
+      "price": 2599
+    },
+    {
+      "id": 4,
+      "name": "小米8 SE",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/pc-320-220-mi8se.png",
+      "src":"../imgs/mi8se.jpg",
+      "price": 1799
+    },
+    {
+      "id": 5,
+      "name": "小米 MAX3",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/max3-320-220.png",
+      "src":"../imgs/max3.jpg",
+      "price": 1699
+    },
+    {
+      "id": 6,
+      "name": "小米 MIX2s",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/mix2s320-220white.png",
+      "src":"../imgs/mix2s.jpg",
+      "price": 3299
+    }
+  ],
+  "redphone": [
+    {
+      "id": 7,
+      "name": "红米6 pro",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/6pro140-140.png?width=80&height=80",
+      "price": 999,
+      "src":"../imgs/red6pro.jpg",
+      "hot":1
+    },
+    {
+      "id": 8,
+      "name": "红米6",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/666666.png?width=80&height=80",
+      "src":"../imgs/red.jpg",
+      "price": 799,
+      "hot":1
+    },
+    {
+      "id": 9,
+      "name": "红米6A",
+      "src":"../imgs/red6a.jpg",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/6AAAA.png?width=80&height=80",
+      "price": 599,
+      "hot":1
+    },
+    {
+      "id": 10,
+      "name": "红米 note5",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/note5-80-80.png?width=80&height=80",
+      "src":"../imgs/red.jpg",
+      "price": 1099
+    },
+    {
+      "id": 11,
+      "name": "红米s2",
+      "src":"../imgs/mi8.jpg",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/s2-80-80.png?width=80&height=80",
+      "price": 999
+    },
+    {
+      "id": 12,
+      "name": "红米5PLUS",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/redmi5P-80-80.png?width=80&height=80",
+      "src":"../imgs/mi8se.jpg",
+      "price": 999
+    }
+  ],
+  "tv": [
+    {
+      "id": 13,
+      "name": "小米电视1",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/75.png",
+      "price": 1199,
+      "src":"../imgs/tv1.jpg",
+      "hot":1
+    },
+    {
+      "id": 14,
+      "name": "小米电视2",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/32.png",
+      "src":"../imgs/tv2.jpg",
+      "price": 1299
+    },
+    {
+      "id": 15,
+      "name": "小米电视3",
+      "src":"../imgs/tv5.jpg",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/4a43.png",
+      "price": 1399
+    },
+    {
+      "id": 16,
+      "name": "小米电视4",
+      "src":"../imgs/tv3.jpg",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/55320220.png",
+      "price": 1399
+    },
+    {
+      "id": 17,
+      "name": "小米电视5",
+      "src":"../imgs/tv1.jpg",
+      "url": "https://i1.mifile.cn/f/i/g/2015/cn-index/32.png",
+      "price": 1299
+    }
+  ]
+}

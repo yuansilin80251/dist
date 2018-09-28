@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-cookie.js"></script>
+</head>
+<body>
+    <div class="wrap_login">
+        <div class="header_login clear">
+            <header>
+                <h1><a href="../index.html"><img src="../imgs/logo_login.png" alt="小米官网"></a></h1>
+            </header>
+        </div>
+        <div class="content_login clear">
+            <section>
+                <!--登录表单处-->
+                <div class="form_login">
+                    <span class="active">账号登录</span><span>扫码登录</span>
+                    <!--用户名/密码输入处-->
+                    <input type="text" title="用户名" id="usn" placeholder="邮箱/手机号码/小米ID">
+                    <input type="password" title="密码" id="psw" placeholder="密码">
+                    <!--验证提示信息处-->
+                    <p class="info"></p>
+                    <!--登录提交按钮-->
+                    <button id="btn">登录</button>
+                    <!--手机短信登录注册链接-->
+                    <a href="#" class="active">手机短信登录/注册</a>
+                    <!--忘记密码立即注册链接-->
+                    <a href="#" class="red_hover">忘记密码</a><a href="regest.html" class="red_hover">立即注册</a>
+                    <!--其他登录方式链接-->
+                    <fieldset><legend>其他方式登录</legend></fieldset>
+                    <!--其他四种登录方式-->
+                    <div class="others">
+                    <div><a href="#"></a></div>
+                    <div><a href="#"></a></div>
+                    <div><a href="#"></a></div>
+                    <div><a href="#"></a></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+<div class="footer_login clear">
+    <footer>
+        <ul>
+            <li><a href="#" id="list_first">简体</a></li>
+            <li><a href="#">繁体</a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#" id="list_last">隐私政策</a></li>
+        </ul>
+        <!--版权处！！！-->
+        <div>
+            <span>小米公司版权所有-京ICP备10046444-</span>
+            <span>
+                <a href="#">
+                    <img src="" alt="">京公网安备11010802020134号
+                </a>
+            </span>
+            <span>-京ICP证110507号</span>
+        </div>
+    </footer>
+</div>
+    <script src="../js/login.js"></script>
+</body>
+</html>
